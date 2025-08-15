@@ -24,11 +24,10 @@ Acredito que conhecimento é um combustível para transformar ideias em realidad
 ## 🛠️ Habilidades e Competências
 
 ### 💻 **Tecnologia & Programação**
-- C, C++, JavaScript, React Native
+- C, Python, JavaScript, React, Next
 - Estruturas de Dados e Algoritmos
 - Sistemas Embarcados
-- Arquitetura de Computadores
-- Noções de Assembly e Otimização
+- DevOps
 
 ### 🌟 **Soft Skills**
 - Comunicação clara e eficiente
