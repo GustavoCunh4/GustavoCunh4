@@ -1,16 +1,65 @@
-## Hi there 👋
+# 👋 Olá, eu sou Gustavo Cunha!
 
-<!--
-**GustavoCunh4/GustavoCunh4** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 **Estudante de Engenharia de Computação** no [SENAI CIMATEC](https://www.senaicimatec.com.br)  
+💼 **Atualmente trabalhando no SENAI CIMATEC**  
+🌎 **Experiência internacional: Intercâmbio no Canadá**  
+🗣️ **Inglês como segunda língua**  
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🚀 Sobre Mim
+
+Sou um jovem apaixonado por **tecnologia, inovação e desafios**, com **sede de aprendizado** e **proatividade** como marcas registradas.  
+Acredito que conhecimento é um combustível para transformar ideias em realidade e por isso busco estar sempre envolvido em projetos, eventos e experiências que expandam minhas habilidades.
+
+🎯 Algumas experiências marcantes:
+- 🌐 **Intercâmbio no Canadá** — imersão cultural e acadêmica, aprimorando o inglês e aprendendo novas perspectivas.
+- 🤝 **Empresa Júnior** da minha faculdade — desenvolvimento de habilidades de liderança, trabalho em equipe e gestão de projetos.
+- 💰 **Liga Financeira** — aprofundamento em finanças, economia e investimentos.
+- 📚 Participação ativa em iniciativas acadêmicas e extracurriculares.
+- 💡 Projetos pessoais e estudos em diversas áreas de tecnologia.
+
+---
+
+## 🛠️ Habilidades e Competências
+
+### 💻 **Tecnologia & Programação**
+- C, C++, JavaScript, React Native
+- Estruturas de Dados e Algoritmos
+- Sistemas Embarcados
+- Arquitetura de Computadores
+- Noções de Assembly e Otimização
+
+### 🌟 **Soft Skills**
+- Comunicação clara e eficiente
+- Trabalho em equipe e liderança
+- Resolução de problemas
+- Proatividade e adaptabilidade
+- Gestão de tempo
+
+### 🌐 **Idiomas**
+- Português (Nativo)
+- Inglês (Avançado – Segunda Língua)
+
+---
+
+## 📈 Minhas Características
+
+- ✅ Curiosidade insaciável por novos conhecimentos  
+- ✅ Facilidade de adaptação em ambientes multiculturais  
+- ✅ Compromisso com a excelência  
+- ✅ Espírito empreendedor  
+- ✅ Mentalidade de aprendizado contínuo  
+
+---
+
+## 📫 Contato
+
+[![Email](https://img.shields.io/badge/Email-%230077B5.svg?style=for-the-badge&logo=gmail&logoColor=white)](mailto:luiz.gustavo.cunha2003@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luiz-gustavo-santos-cunha-854988256/)
+[![GitHub](https://img.shields.io/badge/GitHub-%2312100E.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/GustavoCunh4)
+
+---
+
+> _"O aprendizado é um investimento que rende para a vida toda."_  
+> — Benjamin Franklin
