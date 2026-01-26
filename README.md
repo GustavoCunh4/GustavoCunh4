@@ -1,7 +1,7 @@
 # 👋 Olá, eu sou Gustavo Cunha!
 
 🎓 **Estudante de Engenharia de Computação** no [SENAI CIMATEC](https://www.senaicimatec.com.br)  
-💼 **Atualmente trabalhando no SENAI CIMATEC**  
+💼 **Atualmente trabalhando na IPQ Tecnologia**  
 🌎 **Experiência internacional: Intercâmbio no Canadá**  
 🗣️ **Inglês como segunda língua**  
 
