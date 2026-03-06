@@ -1,64 +1,183 @@
-# 👋 Olá, eu sou Gustavo Cunha!
+<p align="center">
 
-🎓 **Estudante de Engenharia de Computação** no [SENAI CIMATEC](https://www.senaicimatec.com.br)  
-💼 **Atualmente trabalhando na IPQ Tecnologia**  
-🌎 **Experiência internacional: Intercâmbio no Canadá**  
-🗣️ **Inglês como segunda língua**  
+# 👨‍💻 Luiz Gustavo Cunha
 
----
+### Computer Engineering • Systems • AI • IoT • Automation
 
-## 🚀 Sobre Mim
+</p>
 
-Sou um jovem apaixonado por **tecnologia, inovação e desafios**, com **sede de aprendizado** e **proatividade** como marcas registradas.  
-Acredito que conhecimento é um combustível para transformar ideias em realidade e por isso busco estar sempre envolvido em projetos, eventos e experiências que expandam minhas habilidades.
+<p align="center">
 
-🎯 Algumas experiências marcantes:
-- 🌐 **Intercâmbio no Canadá** — imersão cultural e acadêmica, aprimorando o inglês e aprendendo novas perspectivas.
-- 🤝 **Empresa Júnior** da minha faculdade — desenvolvimento de habilidades de liderança, trabalho em equipe e gestão de projetos.
-- 💰 **Liga Financeira** — aprofundamento em finanças, economia e investimentos.
-- 📚 Participação ativa em iniciativas acadêmicas e extracurriculares.
-- 💡 Projetos pessoais e estudos em diversas áreas de tecnologia.
+Computer Engineering Student @ **SENAI CIMATEC**  
+Infrastructure & Technology Intern @ **IPQ Tecnologia**
 
----
+</p>
 
-## 🛠️ Habilidades e Competências
+<p align="center">
 
-### 💻 **Tecnologia & Programação**
-- C, Python, JavaScript, React, Next
-- Estruturas de Dados e Algoritmos
-- Sistemas Embarcados
-- DevOps
+🇧🇷 Brazil | 🇨🇦 International Experience | 🌎 Global Tech Mindset
 
-### 🌟 **Soft Skills**
-- Comunicação clara e eficiente
-- Trabalho em equipe e liderança
-- Resolução de problemas
-- Proatividade e adaptabilidade
-- Gestão de tempo
-
-### 🌐 **Idiomas**
-- Português (Nativo)
-- Inglês (Avançado – Segunda Língua)
+</p>
 
 ---
 
-## 📈 Minhas Características
+# 🚀 About Me
 
-- ✅ Curiosidade insaciável por novos conhecimentos  
-- ✅ Facilidade de adaptação em ambientes multiculturais  
-- ✅ Compromisso com a excelência  
-- ✅ Espírito empreendedor  
-- ✅ Mentalidade de aprendizado contínuo  
+I am a **Computer Engineering student passionate about building real-world technological solutions** that combine **software, infrastructure, artificial intelligence and embedded systems**.
+
+My work and studies focus on the intersection between:
+
+- **Software Engineering**
+- **Automation**
+- **Infrastructure & Monitoring**
+- **Artificial Intelligence**
+- **IoT Systems**
+- **Full-Stack Platforms**
+
+I enjoy solving complex problems and designing **systems that are efficient, scalable and intelligent**.
+
+Currently I work with **technology infrastructure and intelligent monitoring systems**, gaining hands-on experience with:
+
+- intelligent camera systems  
+- monitoring platforms  
+- infrastructure automation  
+- system dashboards  
+- technical operations  
 
 ---
 
-## 📫 Contato
+# 🧠 Engineering Interests
 
-[![Email](https://img.shields.io/badge/Email-%230077B5.svg?style=for-the-badge&logo=gmail&logoColor=white)](mailto:luizgustavocunha.dev@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luiz-gustavo-santos-cunha-854988256/)
-[![GitHub](https://img.shields.io/badge/GitHub-%2312100E.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/GustavoCunh4)
+- Artificial Intelligence
+- Distributed Systems
+- System Architecture
+- Infrastructure Monitoring
+- IoT Engineering
+- Automation Systems
+- Backend Development
+- Full-Stack Platforms
 
 ---
 
-> _"O aprendizado é um investimento que rende para a vida toda."_  
-> — Benjamin Franklin
+# 🛠️ Tech Stack
+
+### Languages
+
+<p>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white"/>
+</p>
+
+### Backend
+
+<p>
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
+<img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white"/>
+</p>
+
+### Frontend
+
+<p>
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react"/>
+<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs"/>
+<img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript"/>
+<img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css"/>
+</p>
+
+### Infrastructure & DevOps
+
+<p>
+<img src="https://img.shields.io/badge/Linux-Debian-A80030?style=for-the-badge&logo=debian"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker"/>
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git"/>
+<img src="https://img.shields.io/badge/Zabbix-CC0000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana"/>
+<img src="https://img.shields.io/badge/GLPI-2C3E50?style=for-the-badge"/>
+</p>
+
+### Databases
+
+<p>
+<img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql"/>
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb"/>
+<img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis"/>
+</p>
+
+---
+
+# 📊 GitHub Stats
+
+<p align="center">
+
+<img height="170em" src="https://github-readme-stats.vercel.app/api?username=GustavoCunh4&show_icons=true&theme=tokyonight&hide_border=true"/>
+
+<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GustavoCunh4&layout=compact&theme=tokyonight&hide_border=true"/>
+
+</p>
+
+---
+
+# 🔬 Engineering Projects
+
+I enjoy building projects that combine **software, hardware and intelligent systems**.
+
+### 💻 Software & Platforms
+- Full-stack systems using modern web frameworks
+- APIs and backend architectures
+- SaaS-style applications
+
+### 📡 IoT & Embedded Systems
+- Microcontroller projects
+- Sensor-based monitoring systems
+- Smart infrastructure solutions
+
+### 🤖 AI & Automation
+- intelligent automation systems
+- AI-assisted workflows
+- data processing tools
+
+---
+
+# 🌎 International Experience
+
+🇨🇦 **Canada Exchange Program**
+
+This experience strengthened:
+
+- English communication
+- Cultural adaptability
+- Global perspective
+- Independence and resilience
+
+---
+
+# 📫 Connect With Me
+
+<p>
+
+<a href="mailto:luizgustavocunha.dev@gmail.com">
+<img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail">
+</a>
+
+<a href="https://www.linkedin.com/in/luiz-gustavo-santos-cunha-854988256/">
+<img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin">
+</a>
+
+<a href="https://github.com/GustavoCunh4">
+<img src="https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github">
+</a>
+
+</p>
+
+---
+
+<p align="center">
+
+⭐ **Always building. Always learning.**
+
+</p>
