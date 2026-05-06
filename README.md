@@ -1,183 +1,57 @@
-<p align="center">
-
-# 👨‍💻 Luiz Gustavo Cunha
-
-### Computer Engineering • Systems • AI • IoT • Automation
-
-</p>
+<h1 align="center">Luiz Gustavo Cunha</h1>
 
 <p align="center">
-
-Computer Engineering Student @ **SENAI CIMATEC**  
-Infrastructure & Technology Intern @ **IPQ Tecnologia**
-
+  Computer Engineering @ SENAI CIMATEC · Salvador, BA<br/>
+  Building <a href="https://github.com/GustavoCunh4">products</a> · Interning @ IPQ Tecnologia · Founding GC Corporation
 </p>
 
 <p align="center">
-
-🇧🇷 Brazil | 🇨🇦 International Experience | 🌎 Global Tech Mindset
-
+  <a href="mailto:luizgustavocunha.dev@gmail.com">Email</a> ·
+  <a href="https://www.linkedin.com/in/luiz-gustavo-santos-cunha-854988256/">LinkedIn</a>
 </p>
 
 ---
 
-# 🚀 About Me
+6th semester. I write software that actually ships — full-stack web, AI systems, embedded, infrastructure monitoring. Currently splitting time between an internship building LPR/CCTV monitoring pipelines at IPQ and bootstrapping [GC Corporation](https://github.com/GustavoCunh4), a SaaS company I'm founding.
 
-I am a **Computer Engineering student passionate about building real-world technological solutions** that combine **software, infrastructure, artificial intelligence and embedded systems**.
-
-My work and studies focus on the intersection between:
-
-- **Software Engineering**
-- **Automation**
-- **Infrastructure & Monitoring**
-- **Artificial Intelligence**
-- **IoT Systems**
-- **Full-Stack Platforms**
-
-I enjoy solving complex problems and designing **systems that are efficient, scalable and intelligent**.
-
-Currently I work with **technology infrastructure and intelligent monitoring systems**, gaining hands-on experience with:
-
-- intelligent camera systems  
-- monitoring platforms  
-- infrastructure automation  
-- system dashboards  
-- technical operations  
+I spent a year in Toronto at ILAC which changed how I think about building things for a global audience.
 
 ---
 
-# 🧠 Engineering Interests
+### What I'm working on
 
-- Artificial Intelligence
-- Distributed Systems
-- System Architecture
-- Infrastructure Monitoring
-- IoT Engineering
-- Automation Systems
-- Backend Development
-- Full-Stack Platforms
+**[Asani v5](https://github.com/GustavoCunh4)** — Immersive marketing site. Three.js r128 neural network hero, GSAP ScrollTrigger camera paths, three-theme system (light/dark/crimson), full copy in pt-BR. The kind of site you see on Awwwards.
+
+**GC Corporation** — Digital systems and products company I'm founding. From internal tooling to client-facing platforms — whatever solves the problem well. Stack: FastAPI + Next.js 15 + React 19 + TypeScript strict + Drizzle + PostgreSQL 17 + Redis 7 + Docker. Building in public.
+
+**IPQ — LPR & CCTV Monitoring** — Zabbix + Grafana dashboards for intelligent camera networks covering LPR, access control, and CCTV infrastructure. Monitoring pipelines, alerting, and operational dashboards for real deployments.
 
 ---
 
-# 🛠️ Tech Stack
+### Stack
 
-### Languages
-
-<p>
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-<img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white"/>
-</p>
-
-### Backend
-
-<p>
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
-<img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white"/>
-</p>
-
-### Frontend
-
-<p>
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react"/>
-<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs"/>
-<img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript"/>
-<img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css"/>
-</p>
-
-### Infrastructure & DevOps
-
-<p>
-<img src="https://img.shields.io/badge/Linux-Debian-A80030?style=for-the-badge&logo=debian"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker"/>
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git"/>
-<img src="https://img.shields.io/badge/Zabbix-CC0000?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana"/>
-<img src="https://img.shields.io/badge/GLPI-2C3E50?style=for-the-badge"/>
-</p>
-
-### Databases
-
-<p>
-<img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql"/>
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb"/>
-<img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis"/>
-</p>
+```
+Languages    TypeScript · JavaScript · Python · SQL · C
+Frontend     Next.js 15 · React 19 SC · Tailwind 4 · Three.js · GSAP
+Backend      FastAPI · Node.js
+Data         PostgreSQL 17 · Redis 7 · Drizzle ORM
+Infra        Docker · Zabbix · Grafana · GLPI · Linux
+Testing      Vitest · Playwright
+Build        Bun · Turbopack
+```
 
 ---
 
-# 📊 GitHub Stats
+### Background
 
-<p align="center">
-
-<img height="170em" src="https://github-readme-stats.vercel.app/api?username=GustavoCunh4&show_icons=true&theme=tokyonight&hide_border=true"/>
-
-<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GustavoCunh4&layout=compact&theme=tokyonight&hide_border=true"/>
-
-</p>
-
----
-
-# 🔬 Engineering Projects
-
-I enjoy building projects that combine **software, hardware and intelligent systems**.
-
-### 💻 Software & Platforms
-- Full-stack systems using modern web frameworks
-- APIs and backend architectures
-- SaaS-style applications
-
-### 📡 IoT & Embedded Systems
-- Microcontroller projects
-- Sensor-based monitoring systems
-- Smart infrastructure solutions
-
-### 🤖 AI & Automation
-- intelligent automation systems
-- AI-assisted workflows
-- data processing tools
-
----
-
-# 🌎 International Experience
-
-🇨🇦 **Canada Exchange Program**
-
-This experience strengthened:
-
-- English communication
-- Cultural adaptability
-- Global perspective
-- Independence and resilience
-
----
-
-# 📫 Connect With Me
-
-<p>
-
-<a href="mailto:luizgustavocunha.dev@gmail.com">
-<img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail">
-</a>
-
-<a href="https://www.linkedin.com/in/luiz-gustavo-santos-cunha-854988256/">
-<img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin">
-</a>
-
-<a href="https://github.com/GustavoCunh4">
-<img src="https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github">
-</a>
-
-</p>
+- Computer Engineering student, SENAI CIMATEC (2023–present)
+- Infrastructure & Technology Intern, IPQ Tecnologia (2026–present)
+- Exchange program, ILAC Toronto (B2/C1 English)
+- Former: CIMATEC Júnior (2023–2025)
 
 ---
 
 <p align="center">
-
-⭐ **Always building. Always learning.**
-
+  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=GustavoCunh4&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
+  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GustavoCunh4&layout=compact&theme=tokyonight&hide_border=true"/>
 </p>
