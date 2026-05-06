@@ -12,9 +12,9 @@
 
 ---
 
-6th semester. I write software that actually ships — full-stack web, AI systems, embedded, infrastructure monitoring. Currently splitting time between an internship building LPR/CCTV monitoring pipelines at IPQ and bootstrapping [GC Corporation](https://github.com/GustavoCunh4), a SaaS company I'm founding.
+6th semester. I write software that actually ships — full-stack web, AI systems, embedded, infrastructure monitoring. Currently splitting time between an internship at IPQ Tecnologia and building GC Corporation, a software company I'm founding.
 
-I spent a year in Toronto at ILAC which changed how I think about building things for a global audience.
+Did 4 months at ILAC in Toronto. Changed how I think about building things for a global audience.
 
 ---
 
@@ -22,9 +22,9 @@ I spent a year in Toronto at ILAC which changed how I think about building thing
 
 **[Asani v5](https://github.com/GustavoCunh4)** — Immersive marketing site. Three.js r128 neural network hero, GSAP ScrollTrigger camera paths, three-theme system (light/dark/crimson), full copy in pt-BR. The kind of site you see on Awwwards.
 
-**GC Corporation** — Digital systems and products company I'm founding. From internal tooling to client-facing platforms — whatever solves the problem well. Stack: FastAPI + Next.js 15 + React 19 + TypeScript strict + Drizzle + PostgreSQL 17 + Redis 7 + Docker. Building in public.
+**GC Corporation** — Software company I'm founding. Custom systems, internal tooling, client-facing platforms — whatever the problem actually needs. Building in public.
 
-**IPQ — LPR & CCTV Monitoring** — Zabbix + Grafana dashboards for intelligent camera networks covering LPR, access control, and CCTV infrastructure. Monitoring pipelines, alerting, and operational dashboards for real deployments.
+**IPQ — LPR & CCTV Monitoring** — Full-stack dashboards for intelligent camera networks. LPR dashboard integrates with the Tático database and GLPI; facial recognition dashboard connects to Dahua's DSS API. Real deployments, real data.
 
 ---
 
@@ -46,7 +46,7 @@ Build        Bun · Turbopack
 
 - Computer Engineering student, SENAI CIMATEC (2023–present)
 - Infrastructure & Technology Intern, IPQ Tecnologia (2026–present)
-- Exchange program, ILAC Toronto (B2/C1 English)
+- Exchange program, ILAC Toronto — 4 months (B2/C1 English)
 - Former: CIMATEC Júnior (2023–2025)
 
 ---
