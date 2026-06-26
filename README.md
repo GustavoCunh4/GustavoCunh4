@@ -40,7 +40,7 @@ Dashboards and monitoring tools for LPR, CCTV and facial recognition environment
 Languages    TypeScript · JavaScript · Python · SQL · C
 Frontend     Next.js · React · Tailwind CSS · Three.js · GSAP
 Backend      Node.js · FastAPI · REST APIs
-Data         PostgreSQL · Redis · Drizzle ORM · Prisma
-Infra        Docker · Linux · Zabbix · Grafana · GLPI
+Data         PostgreSQL · Redis · MongoDB · Prisma
+Infra        Docker · Linux
 Testing      Vitest · Playwright
-Tools        Git · GitHub · Bun · Vercel
+Tools        Git · GitHub · Vercel
