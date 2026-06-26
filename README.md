@@ -8,7 +8,7 @@
 <p align="center">
   <a href="mailto:luizgustavocunha.dev@gmail.com">Email</a> ·
   <a href="https://www.linkedin.com/in/luiz-gustavo-santos-cunha-854988256/">LinkedIn</a> ·
-  <a href="https://github.com/GustavoCunh4">Portfolio</a>
+  <a href="[https://github.com/GustavoCunh4](https://portfolio-gustavo-cunha.vercel.app/)">Portfolio</a>
 </p>
 
 ---
