@@ -23,14 +23,17 @@ I also spent 4 months at ILAC Toronto, improving my English and learning how to 
 
 ### Current focus
 
-**Asani v5**  
-Immersive marketing website built with Three.js, GSAP, Next.js and a multi-theme visual system.
+**MotorLife**  
+Institutional website designed to guide visitors through a clear journey: discovering the brand, understanding its services, and easily getting in touch. A project focused on digital presence, trust, and conversion.
 
 **GC Corporation**  
 Software company focused on custom systems, internal tools, landing pages, dashboards and client-facing platforms.
 
 **IPQ Tecnologia**  
 Dashboards and monitoring tools for LPR, CCTV and facial recognition environments, integrating real systems such as DSS, GLPI and database services.
+
+**GymFlow**  
+Project in development designed to turn fitness business management into a simpler, more integrated, and efficient experience. GymFlow connects students, plans, instructors, payments, and administrative processes into a single digital ecosystem.
 
 ---
 
