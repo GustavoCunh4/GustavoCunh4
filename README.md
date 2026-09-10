@@ -1,18 +1,12 @@
 <h1 align="center">Luiz Gustavo Cunha</h1>
 
 <table align="center">
-  <tr>
-    <td width="300" align="center">
-      <img
-        src="https://github.com/GustavoCunh4.png"
-        width="260"
-        alt="Luiz Gustavo Cunha profile picture"
-      />
-    </td>
-    <td>
-
-<pre>
-gustavocunh4@github
+<tr>
+<td width="300" align="center">
+<img src="https://github.com/GustavoCunh4.png" width="260" alt="Luiz Gustavo Cunha profile picture" />
+</td>
+<td>
+<pre>gustavocunh4@github
 -------------------
 OS                  Computer Engineering
 Host                SENAI CIMATEC
@@ -32,11 +26,9 @@ Human               Portuguese [Native], English [C1]
 
 Contact             luizgustavocunha.dev@gmail.com
 LinkedIn            /in/luiz-gustavo-santos-cunha-854988256
-Portfolio           gustavocunhadev.vercel.app
-</pre>
-
-    </td>
-  </tr>
+Portfolio           gustavocunhadev.vercel.app</pre>
+</td>
+</tr>
 </table>
 
 <p align="center">
