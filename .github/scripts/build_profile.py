@@ -8,7 +8,7 @@ import os
 import urllib.request
 from pathlib import Path
 
-from PIL import Image, ImageEnhance, ImageOps
+from PIL import Image, ImageEnhance, ImageFilter, ImageOps
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -133,9 +133,7 @@ def github_stats() -> dict[str, str]:
         stars = sum(int(repo.get("stargazers_count", 0)) for repo in repos)
         created = dt.datetime.fromisoformat(user["created_at"].replace("Z", "+00:00"))
         today = dt.datetime.now(dt.timezone.utc)
-        uptime_days = max(0, (today - created).days)
-        years, days = divmod(uptime_days, 365)
-        months, days = divmod(days, 30)
+        years, months, days = calendar_diff(created.date(), today.date())
 
         return {
             "repos": f"{int(user.get('public_repos', len(repos))):,}",
@@ -156,38 +154,76 @@ def github_stats() -> dict[str, str]:
         }
 
 
-def avatar_mosaic(theme: dict[str, str], light: bool = False) -> str:
+def calendar_diff(start: dt.date, end: dt.date) -> tuple[int, int, int]:
+    years = end.year - start.year
+    months = end.month - start.month
+    days = end.day - start.day
+
+    if days < 0:
+        months -= 1
+        previous_month = end.month - 1 or 12
+        previous_year = end.year if end.month > 1 else end.year - 1
+        days += days_in_month(previous_year, previous_month)
+
+    if months < 0:
+        years -= 1
+        months += 12
+
+    return years, months, days
+
+
+def days_in_month(year: int, month: int) -> int:
+    if month == 12:
+        next_month = dt.date(year + 1, 1, 1)
+    else:
+        next_month = dt.date(year, month + 1, 1)
+    return (next_month - dt.date(year, month, 1)).days
+
+
+def avatar_ascii(theme: dict[str, str], light: bool = False) -> str:
     image = Image.open(io.BytesIO(http_bytes(AVATAR_URL))).convert("RGB")
 
     # The avatar is a wide scene. This crop keeps the seated profile subject and blue setup visible.
-    image = image.crop((42, 36, 438, 438))
-    image = ImageOps.fit(image, (72, 72), Image.Resampling.LANCZOS)
-    image = ImageEnhance.Color(image).enhance(1.26)
-    image = ImageEnhance.Contrast(image).enhance(1.18)
-    image = ImageEnhance.Brightness(image).enhance(1.06 if not light else 1.12)
+    image = image.crop((35, 30, 445, 440))
+    image = ImageOps.fit(image, (38, 25), Image.Resampling.LANCZOS)
+    image = ImageEnhance.Color(image).enhance(1.25)
+    image = ImageEnhance.Contrast(image).enhance(1.45)
+    image = ImageEnhance.Sharpness(image).enhance(1.45)
+    image = image.filter(ImageFilter.UnsharpMask(radius=1, percent=120, threshold=3))
 
-    cell = 4
-    x0 = 36
-    y0 = 82
+    gray = ImageOps.grayscale(image)
+    gray = ImageOps.autocontrast(gray, cutoff=1)
+
+    chars = " .:-=+*#%@"
+    font_size = 16
+    step_x = 9.3
+    step_y = 20
+    x0 = 15
+    y0 = 30
     pieces = [
-        f'<rect x="24" y="70" width="324" height="324" rx="16" fill="{theme["panel"]}" stroke="{theme["border"]}"/>'
+        (
+            f'<text font-family="{FONT}" font-size="{font_size}px" '
+            f'xml:space="preserve">'
+        ),
     ]
 
-    for y in range(72):
-        for x in range(72):
+    def terminal_color(r: int, g: int, b: int, luminance: int) -> str:
+        if light:
+            return "#24292f" if luminance > 90 else "#57606a"
+        return "#c9d1d9" if luminance > 80 else "#8b949e"
+
+    for y in range(image.height):
+        for x in range(image.width):
             r, g, b = image.getpixel((x, y))
-            luminance = 0.2126 * r + 0.7152 * g + 0.0722 * b
-            if luminance < 12:
-                continue
-            if not light:
-                r = min(255, int(r * 1.08))
-                g = min(255, int(g * 1.08))
-                b = min(255, int(b * 1.12))
-            color = f"#{r:02x}{g:02x}{b:02x}"
+            luminance = gray.getpixel((x, y))
+            index = min(len(chars) - 1, int((luminance / 255) * (len(chars) - 1)))
+            char = chars[index]
+            color = terminal_color(r, g, b, luminance)
             pieces.append(
-                f'<rect x="{x0 + x * cell}" y="{y0 + y * cell}" width="3" height="3" rx="0.7" fill="{color}"/>'
+                f'<tspan x="{x0 + x * step_x:.1f}" y="{y0 + y * step_y:.1f}" fill="{color}">{escape(char)}</tspan>'
             )
 
+    pieces.append("</text>")
     return "\n".join(pieces)
 
 
@@ -245,7 +281,7 @@ def render(name: str, stats: dict[str, str]) -> None:
     svg = f"""<?xml version='1.0' encoding='UTF-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" font-family="{FONT}" width="{WIDTH}px" height="{HEIGHT}px" viewBox="0 0 {WIDTH} {HEIGHT}" font-size="15px" role="img" aria-labelledby="title desc">
 <title id="title">Luiz Gustavo Cunha GitHub Neofetch profile</title>
-<desc id="desc">Profile card generated from code with terminal-style system information and a mosaic based on the GitHub profile picture.</desc>
+<desc id="desc">Profile card generated from code with terminal-style system information and ASCII art based on the GitHub profile picture.</desc>
 <style>
 @font-face {{
   src: local('Consolas'), local('Monaco'), local('monospace');
@@ -263,12 +299,7 @@ text, tspan {{ white-space: pre; }}
 </style>
 <rect width="{WIDTH}px" height="{HEIGHT}px" fill="{theme["bg"]}" rx="15"/>
 <path d="M370 22V518" stroke="{theme["border"]}" stroke-width="1"/>
-{avatar_mosaic(theme, light)}
-<text x="42" y="430" fill="{theme["muted"]}" font-size="15px">
-<tspan x="42" y="430">github avatar rendered as</tspan>
-<tspan x="42" y="450">terminal pixel output</tspan>
-<tspan x="42" y="482" fill="{theme["key"]}">&gt;</tspan><tspan fill="{theme["value"]}"> build. integrate. automate. deploy.</tspan>
-</text>
+{avatar_ascii(theme, light)}
 <text x="{TEXT_X}" y="30" fill="{theme["text"]}">
 {text_block(stats)}
 </text>
