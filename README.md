@@ -1,43 +1,16 @@
 <h1 align="center">Luiz Gustavo Cunha</h1>
 
-<table align="center">
-  <tr>
-    <td width="300" align="center">
-      <img
-        src="https://github.com/GustavoCunh4.png"
-        width="260"
-        alt="Luiz Gustavo Cunha profile picture"
-      />
-    </td>
-    <td>
-
-<pre>
-gustavocunh4@github
--------------------
-OS                  Computer Engineering
-Host                SENAI CIMATEC
-Kernel              Software Development @ IPQ Tecnologia
-Location            Salvador, BA, Brazil
-Build               GC Corporation
-
-Languages.Code      TypeScript, JavaScript, Python, SQL, C
-Stack.Frontend      Next.js, React, Tailwind CSS
-Stack.Backend       Node.js, FastAPI, REST APIs
-Stack.Data          PostgreSQL, Redis, MongoDB, Prisma
-Stack.Infra         Docker, Linux, CI/CD
-
-Systems             AI Agents, API Integrations, Automation
-Domains             IoT, Computer Vision, LPR, CCTV
-Human               Portuguese [Native], English [C1]
-
-Contact             luizgustavocunha.dev@gmail.com
-LinkedIn            /in/luiz-gustavo-santos-cunha-854988256
-Portfolio           gustavocunhadev.vercel.app
-</pre>
-
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./dark_mode.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./light_mode.svg">
+    <img
+      alt="Luiz Gustavo Cunha - Software Developer focused on Backend, Full-stack, AI Systems, API Integrations, IoT, DevOps and Computer Vision"
+      src="./dark_mode.svg"
+      width="100%"
+    >
+  </picture>
+</p>
 
 <p align="center">
   Computer Engineering @ SENAI CIMATEC | Software Development Intern @ IPQ Tecnologia | Founder @ GC Corporation
