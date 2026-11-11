@@ -44,7 +44,6 @@ My work connects **backend and full-stack development**, **AI-powered systems**,
 - **IPQ Tecnologia** — dashboards, integrations and monitoring tools for **LPR, CCTV and facial recognition environments**
 - **GC Corporation** — custom systems, internal tools, automations, landing pages and client-facing platforms
 - **MotorLife** — institutional website focused on digital presence, trust and conversion
-- **GymFlow** — private management platform for fitness businesses, connecting plans, instructors, payments and operations
 
 ---
 
